@@ -14,7 +14,7 @@ setInterval(() => {
   document.querySelector("#days").innerHTML = days + " " + "Days";
   document.querySelector("#hours").innerHTML = hours + " " + "Hours";
   document.querySelector("#minutes").innerHTML = minutes + " " + "Minutes";
-  document.querySelector("#seconds").innerHTML = seconds + " " + "Days";
+  document.querySelector("#seconds").innerHTML = seconds + " " + "Seconds";
 
   // ADD END COUNTDOWN
   if (countdown <= 0) {
