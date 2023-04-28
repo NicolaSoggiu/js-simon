@@ -18,7 +18,7 @@ setInterval(() => {
 
   // ADD END COUNTDOWN
   if (countdown <= 0) {
-    clearInterval(x);
-    document.querySelector(".countdown").innerHTML = "Timer Finished!";
+    clearInterval(setInterval);
+    document.querySelector(".time").innerHTML = "Timer Finished!";
   }
 }, 1000);
